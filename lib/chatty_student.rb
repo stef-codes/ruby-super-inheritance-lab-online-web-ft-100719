@@ -1,4 +1,6 @@
-class ChattyStudent
+require_relative "./vehicle.rb"
+
+class ChattyStudent < Student
 
   def hello
     puts "Hey there! I'm so excited to learn stuff."
